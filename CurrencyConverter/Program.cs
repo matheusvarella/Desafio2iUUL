@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CurrencyConverter.Controllers;
+using System.Threading.Tasks;
 
 namespace CurrencyConverter
 {
@@ -6,7 +7,7 @@ namespace CurrencyConverter
     {
         static void Main(string[] args)
         {
-            PrintView.Print();
+            FlowCurrent.Init();
         }
     }
 }
